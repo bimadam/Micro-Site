@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background: url(beach.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    background-color: #e20074;
+    width: 100%;
+    height: 89px;
+}
+
+.logo {
+    height: 60px;
+    margin-top: 17px;
+    margin-left: 35px;
+}
+
+.beach {
+    width: 100%;
+}
+
+.title1 {
+    font-family: "WorkSans";
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-align: right;
+    margin-right: 75px;
+    margin-top: 100px;
+}
+
+.title2 {
+    font-family: "WorkSans";
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: right;
+    margin-right: 75px;
+    margin-top: 30px;
+}
+
+.title3 {
+    font-family: "WorkSans";
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: right;
+    margin-right: 75px;
+    margin-top: 30px;
+}
+
+button {
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #e20074;
+    font-family: "WorkSans";
+    font-size: 30px;
+    transition: 0.3s;
+    margin-left: 45%;
+    margin-top: 20%;
+}
+
+button:hover{
+    background-color: #ab0059;
+    cursor: pointer;
+}
+
+span {
+    color: #e20074;
+}
+
+.selected {
+    font-size: 70px;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url(WorkSans-Medium.ttf);
+}
